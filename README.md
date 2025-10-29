@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-[My GIF link](https://imgur.com/a/web102-project5-mNHrgwa)
+[My GIF link](https://imgur.com/a/XVS31tv)
 
 GIF created with ...
 
