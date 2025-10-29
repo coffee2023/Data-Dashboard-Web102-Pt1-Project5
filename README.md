@@ -50,7 +50,3 @@ GIF created with ...
 
 Describe any challenges encountered while building the app.
 I had trouble connecting the api.
-
-## Notes
-
-Describe any challenges encountered while building the app.
