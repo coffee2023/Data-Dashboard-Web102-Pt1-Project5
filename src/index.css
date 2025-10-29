@@ -1,0 +1,116 @@
+body {
+  background-color: #666e52;
+  background-repeat: repeat;
+  font-family: 'Georgia', serif;
+  color: #3c2c1e;
+}
+.title{
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+h3{
+  font-size: 1.5rem;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.search {
+  padding: 0.75rem 1rem;
+  width: 300px;
+  font-size: 1rem;
+  font-family: 'Georgia', serif;
+  background-color: #ffffff; 
+  border: 1px solid #59482a; /* book spine brown */
+  border-radius: 8px;
+  color: #4b3f2f; /* deep brown text */
+  transition: all 0.2s ease-in-out;
+}
+
+.search:focus {
+  outline: none;
+  border-color: #5f3610;
+  box-shadow: 2px 2px 6px rgb(255, 255, 255);
+}
+.filter {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-family: 'Georgia', serif;
+  background-color: #ffffff; /* parchment background */
+  border: 1px solid #59482a; /* book spine brown */
+  border-radius: 8px;
+  color: #4b3f2f; /* deep brown text */
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  appearance: none; /* removes default arrow in some browsers */
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg width='10' height='6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%234b3f2f'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 10px 6px;
+}
+
+.filter:focus {
+  outline: none;
+  border-color: #a67c52;
+  box-shadow: 2px 2px 6px rgb(255, 255, 255);
+}
+
+.stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.stat-block {
+  background-color: #ffffff;
+  border: 1px solid #59482a;
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  min-width: 100px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  font-weight: bold;
+}
+
+.stat-block p {
+  margin: 0.3rem 0;
+  color: #5a3e2b;
+  font-size: 1rem;
+}
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.book-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(50, 33, 33, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.book-card img {
+  width: 100px;
+  height: auto;
+  border-radius: 6px;
+}
